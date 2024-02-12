@@ -33,5 +33,5 @@ Given an integer array nums, find the subarray with the largest sum, and return 
 > </br> **Explanation**: The subarray [5,4,-1,7,8] has the largest sum 23.
 
 ## Extra
-
-If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
+Here you can find the spice if you want to show off, with a slightly more difficult challenge.
+- If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
