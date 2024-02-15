@@ -26,4 +26,21 @@ public class Solution {
         return maxSum;
     }
 
+    public static Integer maxSubArrayV2(Integer[] nums) {
+        //Kadanes algorithm O(n)
+        int globalMax = Integer.MIN_VALUE;
+        int localMax = 0;
+
+        for (Integer num : nums) {
+
+            localMax = Math.max(num, num + localMax);
+            if (localMax > globalMax) {
+
+                globalMax = localMax;
+            }
+        }
+
+        return globalMax;
+    }
+
 }
